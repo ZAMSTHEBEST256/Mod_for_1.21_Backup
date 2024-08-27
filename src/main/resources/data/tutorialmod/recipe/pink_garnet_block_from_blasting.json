@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "building",
+  "cookingtime": "100",
+  "experience": 2,
+  "group": "pink_garnet_block",
+  "ingredient": {
+    "item": "tutorialmod:raw_pink_garnet_block"
+  },
+  "result": {
+    "id": "tutorialmod:pink_garnet_block"
+  }
+}
