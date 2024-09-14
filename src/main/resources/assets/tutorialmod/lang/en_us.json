@@ -2,12 +2,19 @@
   "item.tutorialmod.pink_garnet": "Pink Garnet",
   "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
   "item.tutorialmod.chisel": "Chisel",
+  "item.tutorialmod.cauliflower": "Cauliflower",
+  "item.tutorialmod.starlight_ashes": "Starlight Ashes",
 
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
+  "block.tutorialmod.magic_block": "Magic Block",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks"
+  "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This Block is §9Magical and cool and so so cool§r that you should maybe see what raw pink garnet turns into when it is thrown on it",
+  "tooltip.tutorialmod.chisel_item.tooltip": "Hold §fShift§r for more Information",
+  "tooltip.tutorialmod.chisel_item.tooltip.shift_down": "Maybe try using this on Stone, End Stone, Netherrack, a Diamond Block, an Iron Block, a Netherite Block, a Pink Garnet Block, a Gold Block, a Redstone Block, and/or a Block of Lapis"
 }
