@@ -26,7 +26,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public void generate(RecipeExporter exporter) {
 
         List<ItemConvertible> PINK_GARNET_SMELTABLES = List.of(ModItems.RAW_PINK_GARNET, ModBlocks.PINK_GARNET_ORE,
-                ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
+                ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 
         offerSmelting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 1f, 200, "pink_garnet");
         offerBlasting(exporter, PINK_GARNET_SMELTABLES, RecipeCategory.MISC, ModItems.PINK_GARNET, 1f, 100, "pink_garnet");

@@ -15,21 +15,22 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool pinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
+        BlockStateModelGenerator.BlockTexturePool pinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINK_GARNET_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_BLOCK);
-
         pinkGarnetPool.stairs(ModBlocks.PINK_GARNET_STAIRS);
-        pinkGarnetPool.fenceGate(ModBlocks.PINK_GARNET_FENCE_GATE);
-        pinkGarnetPool.pressurePlate(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
-        pinkGarnetPool.wall(ModBlocks.PINK_GARNET_WALL);
-        pinkGarnetPool.fence(ModBlocks.PINK_GARNET_FENCE);
-        pinkGarnetPool.button(ModBlocks.PINK_GARNET_BUTTON);
         pinkGarnetPool.slab(ModBlocks.PINK_GARNET_SLAB);
+
+        pinkGarnetPool.button(ModBlocks.PINK_GARNET_BUTTON);
+        pinkGarnetPool.pressurePlate(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
+
+        pinkGarnetPool.fence(ModBlocks.PINK_GARNET_FENCE);
+        pinkGarnetPool.fenceGate(ModBlocks.PINK_GARNET_FENCE_GATE);
+        pinkGarnetPool.wall(ModBlocks.PINK_GARNET_WALL);
 
         blockStateModelGenerator.registerDoor(ModBlocks.PINK_GARNET_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.PINK_GARNET_TRAPDOOR);
@@ -46,9 +47,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
-
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STARLIGHT_ASHES, Models.GENERATED);
     }
 }

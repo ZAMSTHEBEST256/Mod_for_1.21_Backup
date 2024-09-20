@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_fence_gate_wall",
   "textures": {
-    "texture": "tutorialmod:block/deepslate_pink_garnet_ore"
+    "texture": "tutorialmod:block/pink_garnet_block"
   }
 }

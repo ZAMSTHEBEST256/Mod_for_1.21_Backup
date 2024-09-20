@@ -7,10 +7,9 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.samanyu.tutorialmod.TutorialMod;
 
-
 public class ModTags {
-
     public static class Blocks {
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(TutorialMod.MOD_ID, name));
         }

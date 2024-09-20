@@ -1,10 +1,8 @@
 package net.samanyu.tutorialmod.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -22,7 +20,7 @@ public class ModBlocks {
     public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
-    public static final Block DEEPSLATE_PINK_GARNET_ORE = registerBlock("deepslate_pink_garnet_ore",
+    public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
