@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "tutorialmod:block/deepslate_pink_garnet_ore"
+  }
+}

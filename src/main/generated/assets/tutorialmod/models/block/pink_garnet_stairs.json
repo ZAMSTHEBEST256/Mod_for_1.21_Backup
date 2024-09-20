@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tutorialmod:block/deepslate_pink_garnet_ore",
+    "side": "tutorialmod:block/deepslate_pink_garnet_ore",
+    "top": "tutorialmod:block/deepslate_pink_garnet_ore"
+  }
+}

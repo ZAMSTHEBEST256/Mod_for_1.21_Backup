@@ -10,6 +10,15 @@
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.deepslate_pink_garnet_ore": "Deepslate Pink Garnet Ore",
   "block.tutorialmod.magic_block": "Magic Block",
+  "block.tutorialmod.pink_garnet_stairs": "Pink Garnet Stairs",
+  "block.tutorialmod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
+  "block.tutorialmod.pink_garnet_door": "Pink Garnet Door",
+  "block.tutorialmod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "block.tutorialmod.pink_garnet_wall": "Pink Garnet Wall",
+  "block.tutorialmod.pink_garnet_fence": "Pink Garnet Fence",
+  "block.tutorialmod.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "block.tutorialmod.pink_garnet_button": "Pink Garnet Button",
+  "block.tutorialmod.pink_garnet_slab": "Pink Garnet Slab",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.tutorialmod.pink_garnet_blocks": "Pink Garnet Blocks",
@@ -17,4 +26,5 @@
   "tooltip.tutorialmod.magic_block.tooltip": "This Block is §9Magical and cool and so so cool§r that you should maybe see what raw pink garnet turns into when it is thrown on it",
   "tooltip.tutorialmod.chisel_item.tooltip": "Hold §fShift§r for more Information",
   "tooltip.tutorialmod.chisel_item.tooltip.shift_down": "Maybe try using this on Stone, End Stone, Netherrack, a Diamond Block, an Iron Block, a Netherite Block, a Pink Garnet Block, a Gold Block, a Redstone Block, and/or a Block of Lapis"
+
 }

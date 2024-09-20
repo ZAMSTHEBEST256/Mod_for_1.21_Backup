@@ -16,6 +16,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(ModTags.Items.TRANSFORMABLE_ITEMS)
-                .add(ModItems.PINK_GARNET);
+                .add(ModItems.PINK_GARNET)
+                .add(ModItems.RAW_PINK_GARNET);
     }
 }
