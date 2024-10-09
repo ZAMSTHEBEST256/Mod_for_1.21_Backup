@@ -1,0 +1,10 @@
+// 1.21	2024-10-09T18:53:58.4665001	Tutorial Mod/Tags for minecraft:block
+8159fdbcb7619cbd57674525489b6dfed8a407fd data\minecraft\tags\block\fence_gates.json
+78fdbf3c4c6fbbf9b7a3603ccf908b57f7276772 data\minecraft\tags\block\needs_diamond_tool.json
+c0971b616caaf35d45d5839c2e82b95b7f064109 data\minecraft\tags\block\doors.json
+82041c9d0496fa7cb9f4d74187f80cfd2c7e8335 data\minecraft\tags\block\needs_iron_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data\tutorialmod\tags\block\needs_pink_garnet_tool.json
+6e20b69a9d2f5656b1009614747a8e826f937071 data\minecraft\tags\block\walls.json
+c2a0995dc4249bb6ce8b0b74403e0341bbc31d04 data\minecraft\tags\block\trapdoors.json
+0298a485bb0b558f9453918c02770d0f28bb0cfc data\minecraft\tags\block\mineable\pickaxe.json
+87c23b954c6a1061edf28d30d87d40ccfecb8a8f data\minecraft\tags\block\fences.json
