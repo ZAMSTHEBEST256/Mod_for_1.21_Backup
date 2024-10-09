@@ -33,6 +33,6 @@
 
   "tooltip.tutorialmod.magic_block.tooltip": "This Block is §9Magical and cool and so so cool§r that you should maybe see what raw pink garnet turns into when it is thrown on it",
   "tooltip.tutorialmod.chisel_item.tooltip": "Hold §fShift§r for more Information",
-  "tooltip.tutorialmod.chisel_item.tooltip.shift_down": "Maybe try using this on Stone, End Stone, Netherrack, a Diamond Block, an Iron Block, a Netherite Block, a Pink Garnet Block, a Gold Block, a Redstone Block, and/or a Block of Lapis"
+  "tooltip.tutorialmod.chisel_item.tooltip.shift_down": "This is a magical item that can transform blocks into other blocks"
 
 }

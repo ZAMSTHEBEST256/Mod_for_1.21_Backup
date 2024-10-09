@@ -16,6 +16,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
 import net.samanyu.tutorialmod.block.ModBlocks;
+import net.samanyu.tutorialmod.component.ModDataComponentTypes;
 
 import java.util.List;
 import java.util.Map;
@@ -51,6 +52,8 @@ public class ChiselItem extends Item {
                 context.getStack().damage(1, ((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
+                context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
+
                 world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
             }
         }
@@ -66,6 +69,10 @@ public class ChiselItem extends Item {
         }
         else {
             tooltip.add(Text.translatable("tooltip.tutorialmod.chisel_item.tooltip"));
+        }
+
+        if(stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltip.add(Text.literal("Last Block Changed at " + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);
