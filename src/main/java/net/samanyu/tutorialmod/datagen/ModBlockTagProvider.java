@@ -6,6 +6,7 @@ import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.samanyu.tutorialmod.block.ModBlocks;
 import net.samanyu.tutorialmod.block.custom.PinkGarnetLampBlock;
+import net.samanyu.tutorialmod.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -57,5 +58,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.PINK_GARNET_WALL);
         getOrCreateTagBuilder(BlockTags.DOORS).add(ModBlocks.PINK_GARNET_DOOR);
         getOrCreateTagBuilder(BlockTags.TRAPDOORS).add(ModBlocks.PINK_GARNET_TRAPDOOR);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_PINK_GARNET_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
     }
 }
